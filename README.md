@@ -9,6 +9,6 @@ python schema_validator.py
 python path_to_script/schema_validator.py ~/path_to_json/task_folder/event ~/path_to_schema/task_folder/schema
 ```
 
-В результате работы будет сгенерирован **log.html** файл. Пример файла доступен в репозитории.
+В результате работы будет сгенерирован **log.html** файл, для просмотра файл нужно октрыть в любом браузере. Пример файла доступен в репозитории.
 
  
