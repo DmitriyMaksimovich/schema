@@ -30,7 +30,7 @@ class Schema():
         schemes = {}
         with os.scandir(path_to_folder) as entries:
             for entry in entries:
-                if entry.name.endswith('schema') and "#" not in entry.name:  # Не забыть бы удалить #
+                if entry.name.endswith('schema'):
                     with open(entry.path) as json_file:
                         schema_json = json.load(json_file)
                     schemes[entry.name.split('.')[0]] = schema_json

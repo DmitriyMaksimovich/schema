@@ -11,7 +11,7 @@ class JSONReader():
         pass
 
     def is_json_file(self, file_name):
-        return file_name.endswith('json') and not "#" in file_name # удалить #
+        return file_name.endswith('json')
 
     def load_data_from_file(self, path_to_file):
         with open(path_to_file, 'r') as json_file:
